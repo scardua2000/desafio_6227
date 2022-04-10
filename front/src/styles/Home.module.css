@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.window {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #111;
+}
+
+.botao {
+  display: flex;
+  justify-content: right;
+  padding: 0px 15px 15px 15px;
+}
+
+.conteudo {
+  width: auto;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 25px 25px 25px 25px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+  color: cornsilk;
+}
+
+.acoes{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.botao_acoes {
+  margin: 2px;
+  width: 40px;
+}
+
+.botao_salvar {
+  margin-right: 15px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: right;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
